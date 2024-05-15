@@ -1,7 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:time_range_picker/time_range_picker.dart';
-import 'package:flutter/cupertino.dart';
 
 void main() {
   runApp(const MyApp());
@@ -382,7 +382,7 @@ class _MyHomePageState extends State<MyHomePage> {
         const Divider(),
         Text(
           'As a regular widget:',
-          style: Theme.of(context).textTheme.headline6,
+          style: Theme.of(context).textTheme.headlineMedium,
           textAlign: TextAlign.center,
         ),
         const SizedBox(
